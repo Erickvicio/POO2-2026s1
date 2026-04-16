@@ -7,10 +7,10 @@ public class Rectangulo {
 	private int altura;
 	
 	public int getBase() {return base;}
-	public void setBase(int base) { this.base = base;}
+	private void setBase(int base) { this.base = base;}
 	
 	public int getAltura() { return altura;}
-	public void setAltura(int altura) {this.altura = altura;}
+	private void setAltura(int altura) {this.altura = altura;}
 
 	public Rectangulo(int base, int altura) {
 		setBase(base); setAltura(altura);
@@ -31,12 +31,6 @@ public class Rectangulo {
 	public int getPerimetro() {
 		return 2 * (getBase() + getAltura());
 	}
-	
-	/* 
-	 * Considerando que el rectangulo se arma con los puntos 0 y 1 considerando el tamaño de la base
-	 * Y los puntos 0 y 2 considerando la altura, la forma de representar si su horientacion
-	 * es la siguiente:
-	*/
 	
 	// Para que sea considerado Vertical los valores de X no deben moverse en estos Puntos 
 	public boolean esVertical() {
