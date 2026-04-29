@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1167" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PRODUCTO" vertex="1">
+          <mxGeometry height="300" width="250" x="40" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-1" parent="jio_xQtK-_y6rOsMrq_q-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- nombre: String&lt;div&gt;- precio: Double&lt;/div&gt;&lt;div&gt;- esPrecioCuidado: Boolean&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-2" parent="jio_xQtK-_y6rOsMrq_q-0" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="250" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-3" parent="jio_xQtK-_y6rOsMrq_q-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;u style=&quot;&quot;&gt;+ new(String, Double): Producto&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u style=&quot;&quot;&gt;+ new(String, Double, Boolean): Producto&lt;/u&gt;&lt;/div&gt;+ getNombre(): String&lt;div&gt;+ getPrecio(): Double&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ esPrecioCuidado(): Boolean&lt;/div&gt;&lt;div&gt;+ aumentarPrecio(): Void&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- descuento(): Double&lt;/div&gt;&lt;div&gt;- setNombre(String): Void&amp;nbsp;&lt;/div&gt;&lt;div&gt;- setPrecio(Double). Void&lt;/div&gt;&lt;div&gt;- setFlag(Boolean): Void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="182" width="250" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-8" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jio_xQtK-_y6rOsMrq_q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeWidth=1;endSize=10;" target="jio_xQtK-_y6rOsMrq_q-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SUPERMERCADO" vertex="1">
+          <mxGeometry height="250" width="210" x="460" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-5" parent="jio_xQtK-_y6rOsMrq_q-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- nombre: String&lt;div&gt;- direccion: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-6" parent="jio_xQtK-_y6rOsMrq_q-4" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-7" parent="jio_xQtK-_y6rOsMrq_q-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;u&gt;+ new(String, String): Supermercado&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- setNombre(String): Void&lt;/div&gt;&lt;div&gt;- setDireccion(String): Void&lt;/div&gt;&lt;div&gt;-&lt;/div&gt;+ getCantidadDeProductos(): Int&lt;div&gt;+ getPrecioTotal(): Double&lt;/div&gt;&lt;div&gt;+&amp;nbsp; agregarProducto(Producto): Void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="132" width="210" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-9" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="productos" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-10" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="x" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-17" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jio_xQtK-_y6rOsMrq_q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=22;" target="jio_xQtK-_y6rOsMrq_q-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-13" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PRODUCTOPRIMERANECESIDAD" vertex="1">
+          <mxGeometry height="200" width="250" x="40" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-14" parent="jio_xQtK-_y6rOsMrq_q-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- descuentoUnico: Int" vertex="1">
+          <mxGeometry height="84" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-15" parent="jio_xQtK-_y6rOsMrq_q-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="250" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jio_xQtK-_y6rOsMrq_q-16" parent="jio_xQtK-_y6rOsMrq_q-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;u&gt;+ new(String, Double, Double): ProductoPrimeraNecesidad&lt;/u&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;- descuento(): Double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="250" y="118" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
